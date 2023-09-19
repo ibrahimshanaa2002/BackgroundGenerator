@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Generator</title>
+    <link rel="stylesheet" href="backgroundGenerator.css" />
+  </head>
+  <body>
+    <h1>Color Generator</h1>
+    <div>
+      <label for="color-type">Select Color Type:</label>
+      <select id="color-type">
+        <option value="basic">Basic</option>
+        <option value="gradient">Gradient</option>
+      </select>
+    </div>
+    <div class="container">
+      <div class="box-container">
+        <div class="box" id="box1"></div>
+        <p id="color-code1 selectable">#000000</p>
+      </div>
+      <div class="box-container">
+        <div class="box" id="box2"></div>
+        <p id="color-code2 selectable">#000000</p>
+      </div>
+      <div class="box-container">
+        <div class="box" id="box3"></div>
+        <p id="color-code3 selectable">#000000</p>
+      </div>
+      <div class="box-container">
+        <div class="box" id="box4"></div>
+        <p id="color-code4 selectable">#000000</p>
+      </div>
+      <div class="box-container">
+        <div class="box" id="box5"></div>
+        <p id="color-code5 selectable">#000000</p>
+      </div>
+    </div>
+    <button id="generate-button" class="btn">Generate Random Colors</button>
+    <h2>or just press the "Spacebar" to generate new colors</h2>
+    <div id="notification" class="notification">
+      <p id="notification-text"></p>
+    </div>
+
+    <script src="backgroundGenerator.js"></script>
+  </body>
+</html>
